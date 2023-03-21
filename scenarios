@@ -1,5 +1,38 @@
-{
-  "title": "T-6B STATION PASSAGE",
-  "station": "SAT",
-  "radial" : 290,
-}
+[
+  {
+    "title": "T-6B DIRECT TO NAVAID/TRACKING",
+    "station": "SAT",
+    "radial" : 190,
+    "dme" : 20,
+    "heading" : 180,
+    "altitude" : 6000,
+    "airspeed" : 150,
+    "windDirection" : 330,
+    "windSpeed" : 30,
+    "instructions" : "i. Proceed direct to the San Antonio VORTAC 116.8\nii. Once established inbound, determine Wind-Correct-Heading\niii. Freeze position once accomplished.\n"
+  },
+  {
+    "title": "T-6B STATION PASSAGE/OVER-THE-STATION INTERCEPT",
+    "station": "SAT",
+    "radial" : 180,
+    "dme" : 10,
+    "heading" : 360,
+    "altitude" : 6000,
+    "airspeed" : 150,
+    "windDirection" : 90,
+    "windSpeed" : 10,
+    "instructions" : "i. Track inbound to the SAT VORTAC 116.8 on a course of 360.\nii. Observe/note Station Passage.\niii. Execute Over-the-Station intercept to the SAT 040 Radial.\niv. Freeze trainer once established outbound on the SAT 040 Radial.\n"
+  },
+  {
+    "title": "T-6B RADIAL-RADIAL INTERCEPT (OUTBOUND-OUTBOUND)",
+    "station": "SAT",
+    "radial" : 40,
+    "dme" : 10,
+    "heading" : 40,
+    "altitude" : 6000,
+    "airspeed" : 150,
+    "windDirection" : 330,
+    "windSpeed" : 5,
+    "instructions" :"i. Intercept and track the 070 radial OUTBOUND on the SAT VORTAC 116.8\nii. Freeze trainer once established outbound on the SAT 040 Radial.\n"
+  },
+]
